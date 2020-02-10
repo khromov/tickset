@@ -1,0 +1,60 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-block-tickset-gutenberg  {
+  background: $red;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+}
+
+.tickset-gutenberg-block {
+  border: 1px solid #c3c3c3;
+  margin-bottom: 20px;
+
+  &.no-description {
+	.tickset-content-wrapper {
+	  h3, h4 {
+		margin-bottom: 0;
+	  }
+	}
+  }
+
+  a {
+	text-decoration: none !important;
+  }
+
+  .tickset-content-wrapper {
+	padding: 15px 15px 15px 15px;
+
+	h3 {
+	  margin-top: 0;
+	}
+
+	h4 {
+	  margin-top: 0;
+	}
+
+	.tickset-button {
+	  display: block;
+	  margin-top: 15px;
+
+	  max-width: 200px;
+	  text-align: center;
+	  text-decoration: none;
+	  line-height: 1.25;
+	  transition: all 0.2s ease-in-out;
+	  color: #fbeaeb !important;
+	  background-color: #0E0A40;
+	  padding: 0.75rem 1.5rem;
+	  font-size: 1rem;
+	  border-radius: 80px;
+	}
+  }
+}
+

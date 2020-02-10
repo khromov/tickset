@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tickset\n"
+"POT-Creation-Date: 2020-01-23 23:36+0100\n"
+"PO-Revision-Date: 2020-01-23 23:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: tickset.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+
+#: dist/blocks.build.js:1 src/block/event-list.js:15 src/block/event.js:16
+msgid "tickset"
+msgstr "tickset"
+
+#: dist/blocks.build.js:1 src/block/event-list.js:16 src/block/event.js:17
+msgid "event"
+msgstr "evenemang"
+
+#: dist/blocks.build.js:1 src/block/event-list.js:17 src/block/event.js:18
+msgid "create"
+msgstr "skapa"
+
+#: dist/blocks.build.js:1 src/block/event-list.js:18
+msgid "list"
+msgstr "lista"
+
+#: includes/admin.php:26
+msgid "API key"
+msgstr "API-nyckel"
+
+#: includes/admin.php:45
+msgid "Create an account"
+msgstr "Skapa ett konto"
+
+#: includes/admin.php:48
+msgid ""
+"By easily a creating an account, you can start selling tickets within 5 "
+"minutes."
+msgstr ""
+"Genom att skapa ett konto kan du komma igång med att sälja biljetter på fem "
+"minuter."
+
+#: includes/admin.php:51
+msgid "Create Tickset account"
+msgstr "Skapa ett Tickset-konto"
+
+#: includes/admin.php:58 includes/admin.php:64
+msgid "Get your API key"
+msgstr "Hämta din API-nyckel"
+
+#: includes/admin.php:61
+msgid ""
+"Go to your Tickset profile and find your API key. You will find the API key "
+"on this page."
+msgstr "Gå till din Tickset-profil för att hitta din API-nyckel."
+
+#: includes/admin.php:69
+msgid "Example of what you API key will look like."
+msgstr "Exempel på hur din API-nyckel kommer att se ut."
+
+#: includes/admin.php:76
+msgid "Enter your API key"
+msgstr "Ange din API-nyckel nedan"
+
+#: includes/admin.php:79
+msgid "Enter your API key below."
+msgstr "Ange din API-nyckel nedan."
+
+#: includes/admin.php:84
+msgid "Save API key"
+msgstr "Spara API-nyckel"
+
+#: includes/admin.php:91
+msgid "Start showing your events on your site"
+msgstr "Börja visa evenemang på din sajt"
+
+#: includes/admin.php:94
+msgid "If you're using Gutenberg"
+msgstr "Om du använder dig av Gutenberg-editorn"
+
+#: includes/admin.php:97
+msgid ""
+"Add a new Tickset event or Tickset event list block to embed blocks on your "
+"site."
+msgstr ""
+"Lägg till ett nytt block - antingen blocket Tickset-evenemang eller Tickset "
+"- lista över evenemang."
+
+#: includes/admin.php:102
+msgid "The Gutenberg interface."
+msgstr "Gutenberg-gränssnittet."
+
+#: includes/admin.php:106
+msgid "If you're using Classic Editor"
+msgstr "Om du använder dig av Classic Editor"
+
+#: includes/admin.php:109
+msgid ""
+"If you are still using Classic Editor, we recommend that you start using "
+"Gutenberg. However, you can use the shortcodes below to embed your events in "
+"the classic editor or other places on your site."
+msgstr ""
+"Om du använder dig av den klassiska redigeraren så rekommenderar vi att du "
+"börjar använda Gutenberg. Det finns dock kortkoder tillgängliga om du "
+"använder dig av den klassiska redigeraren och om du vill bädda in kortkoder "
+"på andra delar av din webbplats."
+
+#: includes/admin.php:116
+msgid "Your event shortcodes"
+msgstr "Dina kortkoder"
+
+#: includes/admin.php:127
+msgid "List all your events"
+msgstr "Visa alla dina event"
+
+#: includes/admin.php:135
+msgid "This plugin uses icons made by"
+msgstr "Detta tillägg använder ikoner skapade av"
+
+#: includes/admin.php:138
+msgid "from"
+msgstr "från"
+
+#: includes/admin.php:171
+msgid "Sell tickets digitally with Tickset. Simple."
+msgstr "Tickset är det enkla sättet att sälja biljetter digitalt."
+
+#: includes/admin.php:172
+msgid "Tickset is the simple way to sell tickets digitally."
+msgstr "Sälj biljetter online/digitalt. Enkelt."
+
+#: includes/admin.php:175
+msgid ""
+"Fully SCA and PSD2 compliant and ready to receive payments in 25+ currencies "
+"using the world's most common payment solutions. No monthly fees, no fixed "
+"fees and no surprises. Create your free account today and get started!"
+msgstr ""
+"SCA och PSD2 redo och du kan ta emot betalningar i 25+ valutor med alla de "
+"vanligaste betalsätten i världen. Inga månatliga avgifter, inga fasta "
+"avgifter och inga överraskningar. Skapa ditt kostnadsfria konto idag och kom "
+"igång!"
+
+#: includes/admin.php:178
+msgid "Set up Tickset"
+msgstr "Aktivera Tickset"
+
+#: src/init.php:67
+msgid "Tickset event"
+msgstr "Tickset-evenemang"
+
+#: src/init.php:68
+msgid "Tickset list"
+msgstr "Tickset-lista"
+
+#: src/init.php:132
+msgid "Tickset: No events found."
+msgstr "Tickset: Inga evenemang hittade."
+
+#: src/init.php:181
+msgid "Tickset: No event selected yet, or event could not be found."
+msgstr "Tickset: Inget evenemang är valt."
+
+#: src/init.php:212
+msgid "Get tickets"
+msgstr "Köp biljetter"
+
+#. Plugin Name of the plugin/theme
+msgid "Tickset"
+msgstr "Tickset"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/tickset/"
+msgstr "http://wordpress.org/plugins/tickset/"
+
+#. Description of the plugin/theme
+msgid "Sell tickets digitally. Simple."
+msgstr "Tickset är det enkla sättet att sälja biljetter digitalt."
+
+#. Author of the plugin/theme
+msgid "Tickset, khromov"
+msgstr "Tickset, khromov"
+
+#. Author URI of the plugin/theme
+msgid "https://tickset.com/"
+msgstr "https://tickset.com/"
+
+#~ msgid "Description"
+#~ msgstr "Beskrivning"
+
+#~ msgid "The TinyMCE Classic editor."
+#~ msgstr "TinyMCE - \"classic editor\"."

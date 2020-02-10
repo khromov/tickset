@@ -1,0 +1,122 @@
+.tickset-container {
+	display: flex;
+	align-items: flex-start;
+
+	padding: 10px 25px;
+}
+
+.tickset-container-left, .tickset-container-right {
+	display: flex;
+	flex-direction: column;
+}
+
+.tickset-container-left img {
+	display: block;
+	max-width: 175px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tickset-container-left img:first-child {
+	margin-bottom: 20px;
+}
+
+.tickset-container-right {
+	padding-left: 40px;
+}
+
+
+.tickset-container-right h2 {
+	margin-top: 0;
+}
+
+.tickset-container-right h4 {
+	margin: 0 0 5px 0;
+}
+
+.tickset-button {
+	margin-top: 15px;
+
+	max-width: 200px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 1.25;
+	transition: all 0.2s ease-in-out;
+	color: #fbeaeb;
+	background-color: #0E0A40;
+	padding: 0.75rem 1.5rem;
+	font-size: 1rem;
+	border-radius: 80px;
+}
+
+/*
+.tickset-button:hover {
+	color: #fbeaeb;
+	background-color: #408974;
+}
+*/
+
+#tickset-api-validation-icon {
+	line-height: 30px;
+}
+
+#tickset-api-validation-icon.dashicons-yes-alt {
+	color: green;
+}
+
+#tickset-api-validation-icon.dashicons-no-alt {
+	color: red;
+}
+
+.tickset-onboarding-step {
+	overflow: hidden;
+	line-height: 32px;
+}
+
+.tickset-onboarding-step {
+	margin-top: 15px;
+}
+
+
+.tickset-onboarding-step img.icon {
+	margin-top: 18px;
+	margin-right: 10px;
+	width: 32px;
+	height: 32px;
+	float: left;
+}
+
+.tickset-onboarding-step img.screenshot {
+	border: 2px dotted gray;
+}
+
+.tickset-onboarding-step > div {
+	min-height: 40px; /* Fix for signup button */
+}
+
+.tickset-onboarding-step .screenshot-wrapper {
+	margin-top: 15px;
+}
+
+.tickset-onboarding-step .screenshot-wrapper img {
+	max-width: 500px;
+	height: auto;
+}
+
+
+@media(max-width: 700px) {
+	.tickset-container {
+		display: inherit;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.tickset-container-left img:last-child {
+		margin-bottom: 20px;
+	}
+
+	.tickset-button {
+		max-width: 100%;
+	}
+}
