@@ -150,7 +150,7 @@ function tickset_block_render($attributes) {
 	], $attributes);
 
 	/** @var  $is_in_edit_mode boolean Check if we are in the editor */
-	$is_in_edit_mode = isset($_SERVER['REQUEST_URI']) && strrpos($_SERVER['REQUEST_URI'], "context=edit");
+	$is_in_edit_mode = $renew_data = isset($_SERVER['REQUEST_URI']) && strrpos($_SERVER['REQUEST_URI'], "context=edit");
 
 	/** @var $uid string Unique ID for the element*/
 	$uid = uniqid();
@@ -159,11 +159,11 @@ function tickset_block_render($attributes) {
 		$matches = [];
 		preg_match('/.*tickset.com\/e\/([^\s]*)/', $attributes['event_url'], $matches);
 		if(isset($matches[1])) {
-			$event = WP_Tickset_API::get_event_by_slug($matches[1]);
+			$event = WP_Tickset_API::get_event_by_slug($matches[1], $renew_data);
 		}
 	}
 	else {
-		$event = WP_Tickset_API::get_event_by_slug($attributes['event_id']);
+		$event = WP_Tickset_API::get_event_by_slug($attributes['event_id'], $renew_data);
 	}
 
 

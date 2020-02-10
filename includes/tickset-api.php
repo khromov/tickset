@@ -55,7 +55,7 @@ class WP_Tickset_API {
 		$api_key = WP_Tickset::get_option('api_key');
 
 		//Generate a unique cache key for this API request
-		$option_name = 'tickset_api_' . md5(json_encode(func_get_args())) . '-' . $api_key;
+		$option_name = 'tickset_api_' . md5("{$api_key}-{$endpoint}-" . json_encode($params));
 
 		if(($existing_data = get_option($option_name)) && !$renew) {
 			return [

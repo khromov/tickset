@@ -136,7 +136,8 @@ class WP_Tickset_Admin {
 				<a href="https://www.flaticon.com/authors/vectors-market" target="_blank" rel="nofollow" title="Vectors Market">Vectors Market</a> &
 				<a href="https://www.flaticon.com/authors/itim2101" target="_blank" rel="nofollow" title="itim2101">itim2101</a>
 				<?php _e('from', 'tickset'); ?>
-				<a href="https://www.flaticon.com/" target="_blank" rel="nofollow" title="Flaticon">flaticon.com</a>
+				<a href="https://www.flaticon.com/" target="_blank" rel="nofollow" title="Flaticon">flaticon.com</a> |
+				Midsummer photo by Mikael Kristenson on Unsplash
 			</em>
 		</div>
 		<?php
@@ -154,7 +155,6 @@ class WP_Tickset_Admin {
 
 	function general_admin_notice() {
 		$onboarding_completed = WP_Tickset::get_option('api_key') ? true : false;
-		//$onboarding_completed = false; //FIXME
 		$on_settings_page = get_current_screen() ? get_current_screen()->base === 'settings_page_tickset' : false;
 		$onboarding_admin_notice_dismissed = get_option(TICKSET_PREFIX . 'onboarding_admin_notice_dismissed', false);
 		if(current_user_can('manage_options') && !$onboarding_admin_notice_dismissed && !$onboarding_completed && !$on_settings_page):
