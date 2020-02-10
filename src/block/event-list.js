@@ -7,7 +7,7 @@ const { registerBlockType  } = wp.blocks;
 const { ServerSideRender, SelectControl, TextControl } = wp.components;
 const { InspectorControls } = wp.editor;
 
-registerBlockType( 'cgb/block-tickset-list-gutenberg', {
+registerBlockType( 'tickset/event-list', {
 	title: window.cgbGlobal.translations.blockListTitle,
 	icon: 'list-view',
 	category: 'common',
@@ -24,7 +24,7 @@ registerBlockType( 'cgb/block-tickset-list-gutenberg', {
 		return (
 			<div>
 				<div className="tickset-event-container">
-					<ServerSideRender block="cgb/block-tickset-list-gutenberg" attributes={ props.attributes } />
+					<ServerSideRender block="tickset/event-list" attributes={ props.attributes } />
 				</div>
 			</div>
 		);

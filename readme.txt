@@ -44,6 +44,18 @@ None.
 
 == Changelog ==
 
+= 2.0 =
+
+* Blocks have been renamed to use the `tickset/` prefix. Please recreate existing blocks.
+
+= 1.0.6 =
+
+* Minor bug fixes
+
+= 1.0.2-1.0.5 =
+
+* GitHub actions setup. No code changes.
+
 = 1.0.1 =
 * Fix list block / shortcode
 * Fix pre tags accidentally being included when copy/pasting shortcode from examples

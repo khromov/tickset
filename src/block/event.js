@@ -7,7 +7,7 @@ const { registerBlockType  } = wp.blocks; // Import registerBlockType() from wp.
 const { ServerSideRender, SelectControl, TextControl } = wp.components;
 const { InspectorControls } = wp.editor;
 
-registerBlockType( 'cgb/block-tickset-gutenberg', {
+registerBlockType( 'tickset/event', {
 	// Block name. Block names must be string that contains a namespace prefix. Example: my-plugin/my-custom-block.
 	title: window.cgbGlobal.translations.blockTitle, // Block title.
 	icon: 'tickets', // Block icon from Dashicons → https://developer.wordpress.org/resource/dashicons/.
@@ -49,7 +49,7 @@ registerBlockType( 'cgb/block-tickset-gutenberg', {
 		return (
 			<div>
 				<div className="tickset-event-container">
-					<ServerSideRender block="cgb/block-tickset-gutenberg" attributes={ props.attributes } />
+					<ServerSideRender block="tickset/event" attributes={ props.attributes } />
 				</div>
 				<InspectorControls>
 					<hr style={{marginTop: 20}}/>

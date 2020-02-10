@@ -3,7 +3,7 @@
 Plugin Name: Tickset
 Plugin URI: http://wordpress.org/plugins/tickset/
 Description: Sell tickets digitally. Simple.
-Version: 1.0.6
+Version: 2.0
 Author: Tickset, khromov
 Requires at least: 5.0
 Requires PHP: 5.6

@@ -81,7 +81,7 @@ function tickset_gutenberg_cgb_block_assets() { // phpcs:ignore
 	 * @since 1.16.0
 	 */
 	register_block_type(
-		'cgb/block-tickset-gutenberg', array(
+		'tickset/event', array(
 			// Enqueue blocks.style.build.css on both frontend & backend.
 			'style'         => 'tickset_gutenberg-cgb-style-css',
 			// Enqueue blocks.build.js in the editor only.
@@ -103,7 +103,7 @@ function tickset_gutenberg_cgb_block_assets() { // phpcs:ignore
 	);
 
 	register_block_type(
-		'cgb/block-tickset-list-gutenberg', array(
+		'tickset/event-list', array(
 			'style'         => 'tickset_gutenberg-cgb-style-css',
 			'editor_script' => 'tickset_gutenberg-cgb-block-js',
 			'editor_style'  => 'tickset_gutenberg-cgb-block-editor-css',
