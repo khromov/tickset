@@ -41,6 +41,7 @@ None.
 
 1. An embedded event
 2. Embedding an event via the Gutenberg editor
+3. An event in the Gutenberg editor
 
 == Changelog ==
 
