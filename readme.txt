@@ -2,7 +2,7 @@
 Contributors: Tickset, khromov
 Tags: event, events, event-management
 Requires at least: 5.0
-Tested up to: 5.3.2
+Tested up to: 5.6
 Requires PHP: 5.6
 Stable tag: trunk
 License: GPLv2 or later
